@@ -87,5 +87,5 @@ jobs:
       - name: Upload Trivy Scan Result as artifact
         uses: actions/upload-artifact@v4
         with:
-         name: trivy-scan-results
-         path: trivy-result.json
+          name: trivy-scan-results
+          path: trivy-result.json
